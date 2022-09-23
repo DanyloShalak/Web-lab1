@@ -3,22 +3,39 @@ body {
     margin: 0;
     display: flex;
     justify-content: center;
-    color: #fff;
+    
     font-family: sans-serif;
+}
+
+.body-dark {
+    color: #fff;
+    background-color: rgb(27, 63, 81);
+}
+
+.body-light {
+    color: black;
+    background-color: rgb(65, 181, 160);
 }
 
 .neon {
     text-shadow:
-    0 0 7px #fff,
-    0 0 10px #fff;
+    0 0 7px rgb(93, 77, 197),
+    0 0 10px rgb(93, 77, 197);
 }
 
 .centered-content {
     height: auto;
     width: 60%;
-    background-color: rgb(34, 77, 98);
     height: auto;
     padding: 10px;
+}
+
+.centered-content-dark {
+    background-color: rgb(34, 77, 98);
+}
+
+.centered-content-light {
+    background-color: rgb(58, 213, 185);
 }
 
 .grid-content {
@@ -36,6 +53,16 @@ body {
     justify-content: center;
     align-items: center;
     height: 300px;
+}
+
+.mode-button-style {
+    float: right;
+    line-height: 30px;
+    width: 70px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(43, 95, 120);
+    color: white;
 }
 
 @media only screen and (max-width: 600px) {
