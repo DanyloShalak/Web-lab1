@@ -63,6 +63,7 @@ body {
     border: none;
     background-color: rgb(43, 95, 120);
     color: white;
+    margin-left: 5px;
 }
 
 @media only screen and (max-width: 600px) {
