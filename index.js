@@ -21,7 +21,7 @@ const opositeLanguages = {
 const languageDict = {
     "en":{
         "name": "Danylo Shalak",
-        "group": "Group: КП-03",
+        "group": "Group: КP-03",
         "expectations": {
             "name": "My expectations:",
             "items": ["Learn frameworks for developing web applications",
